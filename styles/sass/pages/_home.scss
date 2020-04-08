@@ -1,0 +1,109 @@
+// Start Slider
+.mainslider {
+    .pslider {
+        margin-bottom: 40px;
+        color: #646060;
+        font: {
+            weight: 700;
+        }
+    }
+    #mainslider {
+        .carousel-indicators {
+            li {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+// End Slider
+// Start Our Services
+.services {
+    .services-options {
+        >div {
+            @include extraSmallToLess {
+                text-align: center;
+                position: static;
+                margin-bottom: 50px;
+            }
+            position: relative;
+            margin-bottom: 20px;
+            i {
+                margin-bottom: 8px;
+            }
+            h5 {
+                @include extraSmallToLess {
+                    text-align: center;
+                    position: static;
+                    display: block;
+                }
+                position: absolute;
+                top: 2%;
+                left: 22%;
+                display: inline-block;
+                font: {
+                    weight: bold
+                }
+            }
+            p {
+                color: $grayColor;
+            }
+            a {
+                color: $redColor;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// End Our Services
+// Start Our Players
+.players {
+    .players-options {
+        >div.player {
+            @include extraSmallToLess {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            .avatar-box {
+                img {
+                    max-width: 100%;
+                }
+            }
+            margin-bottom: 40px;
+            .name-box {
+                margin: 0 0 8px 0;
+                color: $grayColor;
+                span {
+                    &:first-of-type {
+                        color: rgb(97, 95, 95);
+                    }
+                }
+            }
+            p {
+                color: $grayColor;
+            }
+            a {
+                color: $redColor;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// End Our Players
+// Start Lorem Ipsum 
+.lorem-ipsum {
+    .lorem-options {
+        .lorem {
+            margin-bottom: 40px;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+// End Lorem Ipsum

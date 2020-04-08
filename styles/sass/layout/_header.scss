@@ -1,0 +1,42 @@
+// Start Navbar
+.navbar {
+    padding: 10px 0 0;
+    .leftside {
+        .navbar-brand {
+            font: {
+                weight: bold;
+                size: 30px;
+            }
+        }
+        p {
+            font: {
+                weight: bold;
+                size: 15px;
+            }
+        }
+    }
+    .rightside {
+        ul {
+            margin: 15px 0;
+            background-color: $redColor;
+            border-radius: 10px;
+            li {
+                padding: 10px 20px;
+                a {
+                    color: #fff !important;
+                    &:hover {
+                        color: #b3aeae !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mainhr {
+    hr {
+        margin-bottom: 2em;
+    }
+}
+
+// End Navbar
