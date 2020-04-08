@@ -1,0 +1,166 @@
+body {
+  font-family: 'Inconsolata'; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0; }
+
+.navbar {
+  padding: 10px 0 0; }
+  .navbar .leftside .navbar-brand {
+    font-weight: bold;
+    font-size: 30px; }
+  .navbar .leftside p {
+    font-weight: bold;
+    font-size: 15px; }
+  .navbar .rightside ul {
+    margin: 15px 0;
+    background-color: #e2494c;
+    border-radius: 10px; }
+    .navbar .rightside ul li {
+      padding: 10px 20px; }
+      .navbar .rightside ul li a {
+        color: #fff !important; }
+        .navbar .rightside ul li a:hover {
+          color: #b3aeae !important; }
+
+.mainhr hr {
+  margin-bottom: 2em; }
+
+.main-submit {
+  border-radius: 10px;
+  padding: 4px 20px;
+  border: none;
+  background-color: rgba(226, 73, 76, 0.8);
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  font-weight: bold;
+  font-size: 17px; }
+  .main-submit:hover {
+    background-color: #e2494c; }
+
+.headings-with-border {
+  margin: 50px 0;
+  position: relative; }
+  .headings-with-border:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    content: '';
+    border: 1.5px solid #968d8d;
+    z-index: -1; }
+  .headings-with-border h2 {
+    display: inline-block;
+    padding: 2px 60px;
+    background-color: #e2494c;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold; }
+
+.mainslider .pslider {
+  margin-bottom: 40px;
+  color: #646060;
+  font-weight: 700; }
+.mainslider #mainslider .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; }
+
+.services .services-options > div {
+  position: relative;
+  margin-bottom: 20px; }
+  @media (max-width: 575.98px) {
+    .services .services-options > div {
+      text-align: center;
+      position: static;
+      margin-bottom: 50px; } }
+  .services .services-options > div i {
+    margin-bottom: 8px; }
+  .services .services-options > div h5 {
+    position: absolute;
+    top: 2%;
+    left: 22%;
+    display: inline-block;
+    font-weight: bold; }
+    @media (max-width: 575.98px) {
+      .services .services-options > div h5 {
+        text-align: center;
+        position: static;
+        display: block; } }
+  .services .services-options > div p {
+    color: #968d8d; }
+  .services .services-options > div a {
+    color: #e2494c;
+    text-decoration: none; }
+
+.players .players-options > div.player {
+  margin-bottom: 40px; }
+  @media (max-width: 575.98px) {
+    .players .players-options > div.player {
+      text-align: center;
+      margin-bottom: 50px; } }
+  .players .players-options > div.player .avatar-box img {
+    max-width: 100%; }
+  .players .players-options > div.player .name-box {
+    margin: 0 0 8px 0;
+    color: #968d8d; }
+    .players .players-options > div.player .name-box span:first-of-type {
+      color: #615f5f; }
+  .players .players-options > div.player p {
+    color: #968d8d; }
+  .players .players-options > div.player a {
+    color: #e2494c;
+    text-decoration: none; }
+
+.lorem-ipsum .lorem-options .lorem {
+  margin-bottom: 40px; }
+  .lorem-ipsum .lorem-options .lorem img {
+    max-width: 100%; }
+
+footer {
+  background-color: #b9b3b3;
+  padding: 50px 0 10px; }
+  footer h4 {
+    margin-bottom: 20px;
+    color: #4e4e4e;
+    font-weight: bold; }
+  footer .leftside .posts .post {
+    margin-bottom: 15px; }
+    footer .leftside .posts .post h5 {
+      color: #e2494c;
+      margin-bottom: 8px;
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 16px; }
+    footer .leftside .posts .post p {
+      color: #4e4e4e;
+      margin-left: 10px; }
+  footer .middleside .infocontact li:nth-of-type(3) span {
+    color: #e2494c; }
+  footer .middleside .officehour li:first-of-type {
+    font-weight: bold; }
+  footer .rightside input[type='text'],
+  footer .rightside input[type='email'],
+  footer .rightside textarea {
+    border-radius: 10px;
+    margin-bottom: 5px; }
+  footer .rightside input[type='submit'] {
+    margin-top: 20px; }
+  footer hr {
+    background-color: #968d8d;
+    height: 2px;
+    margin-top: 40px; }
+  footer .copyright {
+    color: #968d8d; }
+
+/*# sourceMappingURL=home.css.map */
