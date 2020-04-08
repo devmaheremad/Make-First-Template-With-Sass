@@ -1,0 +1,60 @@
+// For Media Query
+@mixin extraSmallToLess {
+    @media (max-width: 575.98px) {
+        @content;
+    }
+}
+
+@mixin smallToUp {
+    @media (min-width: 576px) {
+        @content;
+    }
+}
+
+@mixin MedToUp {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin lgToUp {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin extraLgToUp {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+// Mixin For Overlay 
+@mixin overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// Mixin For Prefixer 
+@mixin prefixer ($property, $value, $prefixers: ()) {
+    @each $prefix in $prefixers {
+        #{'-' + $prefix + '-' + $property}: $value;
+    }
+    #{$property}: $value;
+}
+
+// Mixin For Animation
+@mixin keyFrame ($animationsName) {
+    @-webkit-keyframes #{$animationsName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationsName} {
+        @content;
+    }
+    @keyframes #{$animationsName} {
+        @content;
+    }
+}
